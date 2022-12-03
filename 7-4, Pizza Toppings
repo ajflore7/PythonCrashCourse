@@ -1,0 +1,6 @@
+prompt = (f'Enter a series of pizza toppings')
+prompt +=(f'\nEnter \'quit\' to quit.')
+while True:
+    toppings = input(prompt)
+    if toppings == 'quit':
+        break
