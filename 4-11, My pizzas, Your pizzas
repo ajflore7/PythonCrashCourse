@@ -1,0 +1,11 @@
+fav_pizzas = ['Pepperoni', 'Meat Lovers', 'Cheese Stuffed Crust']
+friends_pizza = fav_pizzas[:]
+fav_pizzas.append('Cheese Pizza')
+friends_pizza.append('Hawaiian Pizza')
+
+print('My favorite pizzas are:')
+for pizza in fav_pizzas:
+    print(pizza)
+print('My friend\'s favorite pizzas are:')
+for pizza in friends_pizza:
+    print(pizza)
