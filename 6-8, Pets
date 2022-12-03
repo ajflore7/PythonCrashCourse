@@ -1,0 +1,18 @@
+first_pet = {'animal': 'Dog',
+             'breed': 'Husky',
+             'name': 'Kairo',
+             'owner name': 'Anthony Flores'}
+second_pet = {'animal': 'Cat',
+             'breed': 'Egyptian',
+             'name': 'Harry',
+             'owner name': 'Anthony Flores'}
+third_pet = {'animal': 'Lizard',
+             'breed': 'bearded Dragon',
+             'name': 'Toothless',
+             'owner name': 'Anthony Flores'}
+pets = [first_pet, second_pet, third_pet]
+
+for pet in pets:
+    print(f'So the pet we will be discussing is ' + pet['name'].title() + ':')
+    for key, value in pet.items():
+        print('\t' + key + ':' + value)
