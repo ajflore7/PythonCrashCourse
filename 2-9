@@ -1,0 +1,9 @@
+run = True
+while run: # uses a while loop for infinite tries of guessing until the user guesses 7
+    user_input = int(input("Guess my favorite number! \n"))
+    if user_input == 7:
+        print("Correct")
+        run = False
+    else:
+        print("Try again!")
+        continue
