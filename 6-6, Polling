@@ -1,0 +1,11 @@
+favorite_languages = {'jen': 'python',
+                      'sarah': 'c',
+                      'edward': 'ruby',
+                      'phil': 'python'}
+coders = ['phil', 'josh', 'david', 'becca', 'sarah', 'matt', 'danielle']
+
+for coder in coders: # loops through list
+    if coder in favorite_languages.keys(): # loops through dic
+        print('Thank you for taking the poll ' + coder.title() + '!') # prints if one of the dict keys is in the list
+    else:
+        print(coder.title() + ' what is your favorite coding language?') # prints if dict key not in list
