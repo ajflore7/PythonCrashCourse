@@ -1,0 +1,18 @@
+friend_1 = {'First name': 'Anthony', 'last name': 'Flores', 'age': '22',
+          'city': 'Houston'}
+friend_2 = {'First name': 'Alex', 'last name': 'Ferguson', 'Age': '27',
+          'City': 'Austin'}
+friend_3 = {'First name': 'Tony', 'last name': 'Ronaldo', 'Age': '31',
+          'City': 'Miami'}
+people = [friend_1, friend_2, friend_3]
+
+for name in people[:3]:
+    if name['First name'] == 'Anthony':
+        full_name = f"{friend_1['First name']} {friend_1['last name']}"
+        print(full_name.title() + '\nHey thats me!!')
+    elif name['First name'] == 'Alex':
+        full_name = f"{friend_2['First name']} {friend_2['last name']}"
+        print(full_name.title() + '\nThis legend was the coach for Manchester United.')
+    elif name['First name'] == 'Tony':
+        full_name = f"{friend_3['First name']} {friend_3['last name']}"
+        print(full_name.title() + '\nJust some random dude I know?')
