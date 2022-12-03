@@ -1,0 +1,5 @@
+seating = int(input("How man people would you like to seat?\n"))
+if seating < 8:
+    print("Your table is ready!")
+else:
+    print("You will have to wait to be seated.")
