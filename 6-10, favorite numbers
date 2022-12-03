@@ -1,0 +1,6 @@
+favorite_number = {'Tony':['7','9','11'], 'Bale': {'11', '3'}, 'Ramos': ['3','4'], 'John': ['1', '3', '7', '8'],
+                   'Doe': '2'}
+for name, numbers in favorite_number.items():
+    print(name + ' favorite number are ')
+    for number in numbers:
+        print(f'-' + number.title())
