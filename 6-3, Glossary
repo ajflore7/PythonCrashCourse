@@ -1,0 +1,5 @@
+python_words = {'String': 'basically a sentence with characters',
+                'Integers': 'any whole number',
+                'Float': 'a number with a decimal',
+                'Variable': ' a symbolic name that is a reference an object',
+                'Dictionary': 'information stored with a meaning'}
