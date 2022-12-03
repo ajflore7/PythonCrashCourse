@@ -1,8 +1,0 @@
-guest_list = []
-
-guests = input('Who would you like to invite to dinner?\n')
-guest_list.append(guests)
-guests = input('Choose 2 more guests.\n')
-guest_list.append(guests)
-guests = input('Choose your last guest.\n')
-guest_list.append(guests)

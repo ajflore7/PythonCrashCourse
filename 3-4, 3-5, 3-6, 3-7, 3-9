@@ -1,0 +1,51 @@
+guest_list = []
+
+guests = input('Who would you like to invite to dinner?\n')
+guest_list.append(guests)
+guests = input('Choose 2 more guests.\n')
+guest_list.append(guests)
+guests = input('Choose your last guest.\n')
+guest_list.append(guests)
+
+print(len(guest_list)) # 3.9
+
+print(f'Greetings {guest_list[0]}, would you like to go to dinner tomorrow?')
+print(f'Howdy {guest_list[1]}, would you let me take you to dinner?')
+print(f'Yo {guest_list[2]}, lets go grab some dinner and catch up?\n')
+
+popped_guest = guest_list.pop(2)
+new_guest = input(f'{popped_guest} will not be able to make it. choose another guest.\n')
+
+guest_list.insert(2, new_guest)
+
+print(f'{guest_list}, do you peeps want to grab dinner sometime and catch up?\n')
+
+print(f'{guest_list}, I was able to find a bigger table for dinner\n')
+
+guest_list.insert(0, 'Tony')
+guest_list.insert(2, 'Einstein')
+guest_list.append('Elon')
+
+print(f'{guest_list[0]}, would you like have dinner tomorrow?')
+print(f'{guest_list[1]}, dinner plans changed from 6pm to 7pm?')
+print(f'{guest_list[2]}, would you like have dinner tomorrow?')
+print(f'{guest_list[3]}, dinner plans changed from 6pm to 7pm?')
+print(f'{guest_list[4]}, dinner plans changed from 6pm to 7pm?')
+print(f'{guest_list[5]}, would you like have dinner tomorrow\n')
+
+print('The dinner table won\'t arrive on time, choose only 2 guests for tonight\'s dinner.')
+guest_1 = guest_list.pop(0)
+print(f'Sorry {guest_1.title()} there are is no space')
+guest_2 = guest_list.pop(1)
+print(f'Sorry {guest_2.title()} there are is no space')
+guest_3 = guest_list.pop(2)
+print(f'Sorry {guest_3.title()} there are is no space')
+guest_4 = guest_list.pop(2)
+print(f'Sorry {guest_4.title()} there are is no space')
+
+print(f'{guest_list[0]}, do not forget that dinner is at 7pm today')
+print(f'{guest_list[1]}, do not forget that dinner is at 7pm today')
+
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
