@@ -1,0 +1,7 @@
+favorite_number = {'Tony': '7', 'Bale': '11', 'Ramos': '3', 'John': '1',
+                   'Doe': '2'}
+print(f'Tony\'s favorite number is {favorite_number["Tony"]}')
+print(f'Bale\'s favorite number is {favorite_number["Bale"]}')
+print(f'Ramos\'s favorite number is {favorite_number["Ramos"]}')
+print(f'John\'s favorite number is {favorite_number["John"]}')
+print(f'Doe\'s favorite number is {favorite_number["Doe"]}')
