@@ -1,0 +1,13 @@
+# 2.3 & 2.4
+
+first_name = input("What is your first name?\n")
+last_name = input("What is your last name?\n")
+
+full_name = f"{first_name} {last_name}"
+
+message = f"Greetings {full_name.title().strip()}, would you like to know the weather today?"
+print(message)
+message = f"Greetings {full_name.lower().strip()}, would you like to know the weather today?"
+print(message)
+message = f"Greetings {full_name.upper().strip()}, would you like to know the weather today?"
+print(message)
