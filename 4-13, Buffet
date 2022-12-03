@@ -1,0 +1,9 @@
+print('The old menu is:')
+buffet = ['Chicken', 'Burgers', 'Fish', 'Sandwiches', 'Lasagna']
+for food in buffet:
+    print("-" + food)
+buffet[0] = 'Rice'
+print('The updated menu is: ')
+updated_buffet = ('Rice', 'Burgers', 'Sandwiches', 'Wings')
+for food in updated_buffet:
+    print("-" + food)
