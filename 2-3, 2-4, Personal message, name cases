@@ -1,4 +1,4 @@
-# 2.3 & 2.4
+
 
 first_name = input("What is your first name?\n")
 last_name = input("What is your last name?\n")
