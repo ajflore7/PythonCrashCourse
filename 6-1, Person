@@ -1,0 +1,6 @@
+friend = {'First name': 'Anthony', 'last name': 'Flores', 'age': '22',
+          'city': 'Houston'}
+print(friend['First name'])
+print(friend['last name'])
+print(friend['age'])
+print(friend['city'])
