@@ -1,0 +1,3 @@
+cubed = range(1, 11)
+ for number in cubed:
+    print(number**3) # same result different way
