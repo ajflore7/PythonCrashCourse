@@ -1,0 +1,9 @@
+value = []
+for number in range(1,11):
+    value.append(number)
+print('The first three items are:')
+print(value[0:3])
+print('Three items from the middle of the list are:')
+print(value[4:7])
+print('The last three items in the list are:')
+print(value[7:11])
