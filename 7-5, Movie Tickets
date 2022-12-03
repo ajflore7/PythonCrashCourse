@@ -1,0 +1,16 @@
+prompt = (f'How old are you?')
+prompt +=(f'\nEnter \'0\' to exit\n')
+
+while True:
+    tickets_age = int(input(prompt))
+    if tickets_age == 0:
+        break
+    elif tickets_age < 3:
+        print(f'Your ticket is free\n')
+        continue
+    elif tickets_age >= 3 and tickets_age < 12:
+        print(f'Your ticket will be $10\n')
+        continue
+    elif tickets_age >= 12:
+        print(f'Your ticket will be $15\n')
+        continue
