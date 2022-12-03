@@ -1,0 +1,6 @@
+favorite_games =["Destiny 1", "Rocket League", "League of Legends", "Halo: Reach"]
+print(favorite_games)
+print(f"The one game I have the greatest memories on is, {favorite_games[0].title()}")
+print(f"I have improved in {favorite_games[1].title()}, since picking the game up")
+print(f"Do not play {favorite_games[2].title()}, the game is not the same")
+print(f"{favorite_games[3].title()}, is my childhood.")
