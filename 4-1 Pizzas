@@ -1,0 +1,4 @@
+fav_pizzas = ['Pepperoni', 'Meat Lovers', 'Cheese Stuffed Crust']
+for pizza in fav_pizzas: # one of my fav pizzas will be stored in the variable pizza
+    print(f'My favorite pizza is {pizza.title()}') # indent prints every single item in the list
+print('I really like pizza!')
