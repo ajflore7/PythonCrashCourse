@@ -1,0 +1,21 @@
+first_car = 'Jeep'
+guess = input('What was my first car?\n')
+if guess.lower() == 'jeep':
+    print('Correct!')
+else:
+    print("Try again")
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+for number in numbers:
+    if number == 7:
+        print('My lucky number!')
+    else:
+        print(f'{number}, is incorrect')
+
+dog = 'Kairo'
+print("Is dog == 'Kairo'? I predict true")
+print(dog.lower() == 'kairo')
+
+dog = 'Kairo'
+print("Is dog == 'Kairo'? I predict true")
+print(dog == 'kairo') # since the name is lowercase it reads as false unlike the code before with .lower()
