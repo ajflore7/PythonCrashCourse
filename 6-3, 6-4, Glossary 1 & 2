@@ -3,3 +3,21 @@ python_words = {'String': 'basically a sentence with characters',
                 'Float': 'a number with a decimal',
                 'Variable': ' a symbolic name that is a reference an object',
                 'Dictionary': 'information stored with a meaning'}
+                
+print(f'A String is: {python_words["String"]} \n')
+print(f'An Integer is: {python_words["Integers"]}\n')
+print(f'A Float is: {python_words["Float"]}\n') # you can print it this way or
+word = 'Float'
+print(word.title() + ": " + python_words[word] + '\n') # this way, either way works
+print(f'A Variable is: {python_words["Variable"]}\n')
+print(f'A Dictionary is: {python_words["Dictionary"]}\n')
+
+
+#python_words = {'String': 'basically a sentence with characters',
+#                 'Integers': 'any whole number',
+#                 'Float': 'a number with a decimal',
+#                 'Variable': 'a symbolic name that is a reference an object',
+#                 'Dictionary': 'information stored with a meaning'}
+#
+# for word, definition in python_words.items(): # .items() displays the dictionary list
+#     print(word.title() + ":" + definition + "\n") # DO NOT FORGET THE + !!!
