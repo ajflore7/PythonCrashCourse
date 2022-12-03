@@ -1,0 +1,11 @@
+favorite_fruit = ['Mango', 'Watermelon', 'melon', 'pineapple', 'strawberry']
+if 'Mango' in favorite_fruit:
+    print('You like mango\'s')
+if 'melon' in favorite_fruit:
+    print('Melon is a great fruit')
+if 'pineapple' in favorite_fruit:
+    print('Eating pineapple gets sour overtime')
+if 'Watermelon' in favorite_fruit:
+    print('I love watermelon')
+if 'bananas' in favorite_fruit:
+    print('bananas are sus')
