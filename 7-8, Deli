@@ -1,0 +1,29 @@
+sandwich_orders = ['Turkey sandwich', 'Peanut Butter sandwich', 'Jelly sandwich', 'Ham sandwich', 'Spicy chicken sandwich', 'Tuna sandwich']
+finished_sandwiches = []
+
+orders = True
+while orders:
+    user_input = input(f'What sandwich should we make for you?')
+    if user_input == 'EOD':
+        print(f'Powering off...')
+        break
+    else:
+        response = input(f'Thank you for ordering, is there anything else? (yes/no)')
+
+    if response == 'yes':
+        finished_sandwiches.append(user_input.title())
+        continue
+
+    if user_input.title() in sandwich_orders:
+        print('We will have your order ready shortly.')
+
+    elif user_input.title() != sandwich_orders:
+        print(f'That is a unique sandwich(s), we will add it to the list of sandwiches!')
+        sandwich_orders.append(user_input.title())
+
+    if response == 'no':
+        print('Your transaction is.')
+        finished_sandwiches.append(user_input.title())
+        print(f'Sir your,', finished_sandwiches, f'are ready.')
+        finished_sandwiches.clear()
+        continue
