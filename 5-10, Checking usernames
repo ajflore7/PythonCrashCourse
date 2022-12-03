@@ -1,0 +1,8 @@
+current_users = ['flores', 'tony', 'admin', 'JHINERIC', 'anthony']
+new_users = ['luffy', 'slime', 'alex', 'TonY', 'Jhineric']
+current_users_lower = [user.lower() for user in current_users] # makes the list case sensitive
+for user in new_users:
+    if user.lower() in current_users_lower:
+        print(f'Please enter a new username')
+    else:
+        print(f'That username is available')
