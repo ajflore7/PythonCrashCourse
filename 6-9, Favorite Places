@@ -1,0 +1,8 @@
+favorite_places = {'Tony': ['Spain', 'Rome', 'Athens'],
+                   'Anthony': ['England', 'United States', 'Australia'],
+                   'Flores': ['Italy', 'Belgium', 'Brazil']}
+
+for name, places in favorite_places.items(): # loops through the names and places
+    print(name + ' loves to go to ')
+    for place in places: # this for loop goes through the list in the dic
+        print(f'-' + place.title()) #  <---- prints this out
