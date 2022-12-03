@@ -1,0 +1,26 @@
+cities = {
+    'Houston': {
+        'country': 'usa',
+        'population': 3000000,
+        'climate': 'very bipolar'
+        },
+    'rome': {
+        'country': 'italy',
+        'population': 200000,
+        'climate': 'cool'
+        },
+    'cairo': {
+        'country': 'india',
+        'population': 21000000,
+        'climate': 'warm'
+        }
+    }
+for city, city_info in cities.items():
+    country = city_info['country'].title()
+    population = city_info['population']
+    climate = city_info['climate']
+
+    print(city.title() + f' is in ' + country)
+    print(f'has an estimated population of:')
+    print(str(population))
+    print(f'with a climate of ' + climate + f' all year round')
