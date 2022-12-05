@@ -1,0 +1,4 @@
+def display_message():
+    print(f'You are are learning how to use functions.')
+
+display_message()
