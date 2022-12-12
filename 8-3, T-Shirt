@@ -1,4 +1,0 @@
-def make_shirt(size, message):
-    print(f'The size of the shirt is', size, f'and the message on the shirt', message)
-
-print(make_shirt('M', '12/12/2022'))
