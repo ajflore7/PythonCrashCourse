@@ -1,0 +1,10 @@
+def city_country(city, country):
+    country_capital = f'{city} {country}'
+    return country_capital.title()
+
+world = city_country('algiers,', 'algeria')
+world2 = city_country('Luanda,', 'Angola')
+world3 = city_country('Tirana,', 'albania')
+print(world)
+print(world2)
+print(world3)
