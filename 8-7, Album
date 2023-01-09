@@ -1,0 +1,15 @@
+def make_album(artist, album, songs = None):
+    music = {'artist': artist, 'album': album}
+    if songs:
+        music['songs'] = songs
+    return music
+
+pop = make_album('Taylor Swift', 'Red', songs=12)
+
+rap = make_album('MF Doom', 'Mad Villainy')
+
+club = make_album('Calvin Harris', '18 Months')
+
+print(club)
+print(pop)
+print(rap)
