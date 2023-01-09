@@ -1,0 +1,13 @@
+def make_album(artist, album):
+    music = {'Artist': artist, 'Album': album}
+    return music
+
+while True:
+    artist_name = input(f'What is the artist name?\n')
+    if artist_name == 'q':
+        break
+    artist_album = input(f'What is the album\n')
+    if artist_album == 'q':
+        break
+    album = make_album(artist_name, artist_album)
+    print(f'Your entry:', album)
