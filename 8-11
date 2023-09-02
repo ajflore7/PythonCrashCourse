@@ -1,0 +1,19 @@
+#8-11
+def send_messages(text,sent_text):
+
+    while text:
+        completed_text = text.pop()
+        print(f'Would you like to send these messages: {completed_text}')
+        sent_text.append(completed_text)
+
+def show_sent_texts(sent_text):
+    print(F'The messages have been sent')
+    for sent_texts in sent_text:
+        print(sent_texts)
+
+text= ["Hello new world","the name is tony", "I am reading a book about python"]
+sent_text=[]
+send_messages(text,sent_text)
+show_sent_texts(sent_text)
+print(text)
+print(sent_text)
