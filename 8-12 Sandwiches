@@ -1,0 +1,7 @@
+def sandwich(*items):
+    print('This is the sandwich you ordered:')
+    for item in items:
+        print(f'- {item}')
+sandwich('Ham', 'Cheese', 'Lettuce')
+sandwich('turkey', 'Ham', 'Peppers')
+sandwich('Mayo')
