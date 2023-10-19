@@ -1,0 +1,20 @@
+
+#8-11
+#def function to move text list into sent_messages=[] by using pop and append
+def print_text(text, sent_messages):
+    while text:
+        sent_text = text.pop()
+        print(f"Sending text: {sent_text}")
+        sent_messages.append(sent_text)
+#def function to print the updated sent_message list that were popped and appeneded
+def show_sent_text(sent_messages):
+    print("These messages have been sent:")
+    for sent_message in sent_messages:
+        print(sent_message)
+
+text= ["Hello new world","the name is tony", "I am reading a book about python"]
+sent_messages=[]
+#text[:] will make a copy of the text list to not empty the original list
+print_text(text[:],sent_messages)
+show_sent_text(sent_messages)
+print(text)
