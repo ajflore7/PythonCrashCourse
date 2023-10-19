@@ -1,0 +1,10 @@
+#8-10
+text= ["Hello new world","the name is tony", "I am reading a book about python"]
+sent_messages=[]
+while text:
+    sent_text= text.pop()
+    print(f"Sending text: {sent_text}")
+    sent_messages.append(sent_text)
+print("The following text have been sent:")
+for sent_message in sent_messages:
+    print(sent_message)
